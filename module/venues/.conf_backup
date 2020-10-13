@@ -1,0 +1,109 @@
+{
+"module_name":"venues",
+"tag":"",
+"module_slug":"venues",
+"sub_menu":
+	{
+		"venues":
+			{
+				"name":"List Venues",
+				"class_icon":"fa fa-bars",
+				"button_bg":"btn-md btn-inverse venues",
+				"hidden":"0",
+				"main":"1"
+			},
+		"addvenues":
+			{
+				"name":"Add venues",
+				"class_icon":"fa fa-plus",
+				"button_bg":"btn-md btn-success addvenues",
+				"hidden":"0",
+				"main":"0"
+			},
+		"editvenues":
+			{
+				"name":"Edit venues",
+				"class_icon":"fa fa-plus",
+				"button_bg":"btn-md btn-success editvenues",
+				"hidden":"1",
+				"main":"0"
+			},
+		"merchants":
+			{
+				"name":"List Venues",
+				"class_icon":"fa fa-pencil",
+				"button_bg":"btn-md btn-inverse editvenues",
+				"hidden":"1",
+				"main":"0"
+			}
+	},
+"action":
+	{
+		"getvenues":
+			{
+				"name":"Get data venues",
+				"dtlist":"",
+				"page":"",
+				"type":"",
+				"aclass":"",
+				"iclass":""
+			},
+		"addvenuesd":
+			{
+				"name":"Add Data venues",
+				"dtlist":"",
+				"page":"",
+				"type":"",
+				"aclass":"",
+				"iclass":""
+			},
+		"stores":
+			{
+			"name":"List Stores",
+			"dtlist":"1",
+			"page":"stores/venues",
+			"type":"btn",
+			"aclass":"btn-warning ajax-load",
+			"iclass":"fa-th-list"
+			},		
+		"detailvenuesd":
+			{
+				"name":"Detail Data venues",
+				"dtlist":"1",
+				"page":"#detailvenues",
+				"type":"btn",
+				"aclass":"btn-theme-inverse showmodaldetailvenues",
+				"iclass":"fa-exclamation-circle"
+			},
+		"editvenuesd":
+			{
+			"name":"Edit Data venues",
+			"dtlist":"1",
+			"page":"venues/editvenues",
+			"type":"btn",
+			"aclass":"btn-info ajax-load",
+			"iclass":"fa-pencil"
+			},
+		"deletevenuesd":
+			{
+				"name":"Delete Data venues",
+				"dtlist":"1",
+				"page":"#delvenues",
+				"type":"btn",
+				"aclass":"btn-danger showmodaldelvenues",
+				"iclass":"fa-trash-o"
+			},
+		"updatevenuesd":
+			{
+				"name":"Update Status venues",
+				"dtlist":"1",
+				"page":"venues/updatevenuesd",
+				"type":"checkbox",
+				"aclass":"switch-mini showmodalstatus",
+				"iclass":""
+			}
+	},
+"class_icon":"fa fa-clipboard",
+"sub":"",
+"order":""
+}

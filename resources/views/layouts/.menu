@@ -1,0 +1,8 @@
+{
+	"dashboard":{"slug":"dashboard","name":"Dashboard","class_icon":"fa fa-desktop","dashboard":{
+	 "1":"dashboard_"
+	},"sub":"0","order":"0"},
+	"merchants":{"slug":"merchants","name":"Merchants","class_icon":"fa fa-sitemap ","sub":"0","order":"109"},
+	"venues":{"slug":"venues","name":"Venues","class_icon":"fa fa-sitemap ","sub":"0","order":"110"},
+	"setting":{"slug":"setting","name":"Setting","class_icon":"fa fa-wrench ","sub":"1","order":"111"}
+}

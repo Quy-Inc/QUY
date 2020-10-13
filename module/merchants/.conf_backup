@@ -1,0 +1,92 @@
+{
+"module_name":"Merchants",
+"tag":"",
+"module_slug":"merchants",
+"sub_menu":
+	{
+		"merchants":
+			{
+				"name":"List Merchants",
+				"class_icon":"fa fa-bars",
+				"button_bg":"btn-md btn-inverse merchants",
+				"hidden":"0",
+				"main":"1"
+			},
+		"addmerchants":
+			{
+				"name":"Add merchants",
+				"class_icon":"fa fa-plus",
+				"button_bg":"btn-md btn-success addmerchants",
+				"hidden":"0",
+				"main":"0"
+			},
+		"editmerchants":
+			{
+				"name":"Edit merchants",
+				"class_icon":"fa fa-pencil",
+				"button_bg":"btn-md btn-inverse editmerchants",
+				"hidden":"1",
+				"main":"0"
+			}
+	},
+"action":
+	{
+		"getmerchants":
+			{
+				"name":"Get data merchants",
+				"dtlist":"",
+				"page":"",
+				"type":"",
+				"aclass":"",
+				"iclass":""
+			},
+		"addmerchantsd":
+			{
+				"name":"Add Data merchants",
+				"dtlist":"",
+				"page":"",
+				"type":"",
+				"aclass":"",
+				"iclass":""
+			},
+		"venuesd":
+			{
+				"name":"Venues",
+				"dtlist":"1",
+				"page":"venues/merchants",
+				"type":"btn",
+				"aclass":"btn-theme-inverse ajax-load",
+				"iclass":"fa-home"
+			},
+		"editmerchantsd":
+			{
+				"name":"Edit Data merchants",
+				"dtlist":"1",
+				"page":"merchants/editmerchants",
+				"type":"btn",
+				"aclass":"btn-info ajax-load",
+				"iclass":"fa-pencil"
+			},
+		"deletemerchantsd":
+			{
+				"name":"Delete Data merchants",
+				"dtlist":"1",
+				"page":"#delmerchants",
+				"type":"btn",
+				"aclass":"btn-danger showmodaldelmerchants",
+				"iclass":"fa-trash-o"
+			},
+		"updatemerchantsd":
+			{
+				"name":"Update Status merchants",
+				"dtlist":"1",
+				"page":"merchants/updatemerchantsd",
+				"type":"checkbox",
+				"aclass":"switch-mini showmodalstatus",
+				"iclass":""
+			}
+	},
+"class_icon":"fa fa-clipboard",
+"sub":"",
+"order":""
+}
